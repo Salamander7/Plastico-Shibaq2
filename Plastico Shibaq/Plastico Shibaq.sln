@@ -1,11 +1,13 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2015
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plastico Shibaq.Plugins", "Plastico Shibaq.Plugins.csproj", "{23C61EA4-FA94-3BCF-B218-B00218200506}"
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plastico Shibaq", "Assembly-CSharp-firstpass.csproj", "{CD66919B-BABF-57FC-58F6-A5F43079A9C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plastico Shibaq", "Plastico Shibaq.csproj", "{0B8FF6D7-D7E2-72D2-E696-70241F2C422E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plastico Shibaq", "Assembly-CSharp.csproj", "{5FFB1EF7-18BB-C33C-3F67-7C121E12845A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plastico Shibaq.Editor.Plugins", "Plastico Shibaq.Editor.Plugins.csproj", "{1B93121C-5829-13B9-EA6F-531E4CAEF713}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plastico Shibaq", "Assembly-CSharp-Editor-firstpass.csproj", "{92EEE518-0033-6E59-0C38-1142A2CF71DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plastico Shibaq", "Assembly-CSharp-Editor.csproj", "{9E873D53-2216-8722-652F-21C442CBE26F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,20 +15,27 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{23C61EA4-FA94-3BCF-B218-B00218200506}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{23C61EA4-FA94-3BCF-B218-B00218200506}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{23C61EA4-FA94-3BCF-B218-B00218200506}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{23C61EA4-FA94-3BCF-B218-B00218200506}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0B8FF6D7-D7E2-72D2-E696-70241F2C422E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0B8FF6D7-D7E2-72D2-E696-70241F2C422E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0B8FF6D7-D7E2-72D2-E696-70241F2C422E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0B8FF6D7-D7E2-72D2-E696-70241F2C422E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1B93121C-5829-13B9-EA6F-531E4CAEF713}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1B93121C-5829-13B9-EA6F-531E4CAEF713}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1B93121C-5829-13B9-EA6F-531E4CAEF713}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1B93121C-5829-13B9-EA6F-531E4CAEF713}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD66919B-BABF-57FC-58F6-A5F43079A9C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD66919B-BABF-57FC-58F6-A5F43079A9C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD66919B-BABF-57FC-58F6-A5F43079A9C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD66919B-BABF-57FC-58F6-A5F43079A9C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FFB1EF7-18BB-C33C-3F67-7C121E12845A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FFB1EF7-18BB-C33C-3F67-7C121E12845A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FFB1EF7-18BB-C33C-3F67-7C121E12845A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FFB1EF7-18BB-C33C-3F67-7C121E12845A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92EEE518-0033-6E59-0C38-1142A2CF71DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92EEE518-0033-6E59-0C38-1142A2CF71DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92EEE518-0033-6E59-0C38-1142A2CF71DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92EEE518-0033-6E59-0C38-1142A2CF71DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E873D53-2216-8722-652F-21C442CBE26F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E873D53-2216-8722-652F-21C442CBE26F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E873D53-2216-8722-652F-21C442CBE26F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E873D53-2216-8722-652F-21C442CBE26F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal
