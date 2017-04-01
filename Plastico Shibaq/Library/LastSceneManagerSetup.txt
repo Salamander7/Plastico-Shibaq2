@@ -1,4 +1,7 @@
 sceneSetups:
-- path: Assets/test.unity
+- path: Assets/industrial warehouse.unity
   isLoaded: 1
   isActive: 1
+- path: Assets/BattleGroundVolume1-Factory/Scenes/DemoScene.unity
+  isLoaded: 1
+  isActive: 0
